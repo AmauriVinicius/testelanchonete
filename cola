@@ -1,0 +1,234 @@
+TAGS DO HTML
+<!---------------------------------------------------------------------------------------------------
+<html> -> começa o programa em html
+
+    <head> -> começa a cabeça do programa (configuração)
+        <link rel="stylesheet" href=""> ->  conecta arquivos
+    </head> -> termina as configuração
+
+    <body> ->começa o corpo dp site 
+
+            <p> -> começa um parágrafo
+            </p> -> e termina o parágrafo
+            <h1> -> começa o texto de importancia 1
+            </h1> -> termina o texto de importancia 1
+            <h2> -> começa o texto de importancia 2
+            </h2> -> termina o texto de importancia 2
+            <h3> -> começa o texto de importancia 3
+            </h3> -> termina o texto de importancia 3
+            <h4> -> começa o texto de importancia 4
+            </h4> -> termina o texto de importancia 4
+            <h5> -> começa o texto de importancia 5
+            </h5> -> termina o texto de importancia 5
+            <h6> -> começa o texto de importancia 6
+            </h6> -> termina o texto de importancia 6
+        ------------------------------------------------------------
+            <img> -> coloca uma imagem no site
+            sub comandos do html (paramentros ou atributo)
+            src="" -> permite escolhar a imagem 
+            href="" -> permite uma referencia com arquivo externo
+            class="" -> cria um "apelido" que classifica o elemento
+            id= cria um "apelido" que idendifica 0 elemento
+        ------------------------------------------------------------
+            <div> -> começa uma divisao de conteudo
+            </div> -> termina uma divisão de conteudo
+        ------------------------------------------------------------
+            <form> -> começaum formulario
+            </form> -> termina um formulario
+            <input> -> cria uma campo para interagir com o usuario
+            </input>
+            <option> -> começa uma opção dentro do select
+            </option> -> termina uma opção dentro do select
+            <textaarea> -> começa um compo gande para textos
+            </textaarea> -> termina um compo gande para textos
+            <label> indica um texto para se conetar
+            </label> fim da indicação
+        ------------------------------------------------------------
+        <header> --> semelhamte a uma div porem usada no inicio
+        </header> --> termina o header
+        <main> --> semelhamte a uma div porem usada no meia
+        </main> --> termina o main
+        <footer> --> semelhamte a uma div porem usada no fim
+        </footer> --> termina o footer
+        <section> -> semelhamte a uma div porem usada em um gropo grande
+        </section> --> termina a section
+        <video> -> mostra o video
+        <meta charset="utf-8"> -> corrigi erros de acentuação
+        ------------------------------------------------------------
+
+
+    </body> -> termina o programa em html
+
+</html> -> termina o programa em html
+---------------------------------------------------------------------------------------------------!>
+        <style> -> começa a estilização do site (e fetivo visuais)
+        </style> -> termine os efeitos visuais
+<!---------------------------------------------------------------------------------------------------
+Sub comados do HTML ()
+    src="" -> Permite escolher a imagem dentro do IMG
+    ref="" -> Permite uma referencia com arquivo externo
+    class="" -> Cria um "apelido" que classifica o elemento
+    d="" -> Cria um "apelido" que identifica o elemento
+    <type="text"> -> Permite so input armazenar textos
+    <type="number"> -> Permite so input aceitar somete numeros
+    <type="checkbox"> -> Permite so input se transforma em um quadrado
+    <type="redios"> -> Permite so input se transforma em um circulo
+    <type="submit"> -> Executar o form enviando as informações
+    placeholder="Dica Aqui" -> coloca uma dica para o usuario
+    readonly -> Faz o input ser somente eitetura (bloqueio mudanças)
+    for="ze" -> Faz con que o label se conecta a um id
+---------------------------------------------------------------------------------------------------!>
+
+<!-- Comentarios aqui -->
+----------------------------------------------
+
+Comandos CSS
+
+elemento{
+    color: brown; -> Muda a cor do texto
+    font-size: 30px; -> Muda o tamanho do texto
+    font-weight: 700; -> Aplica negrito no texto
+    font-family:; -> Muda a fonte dp texto
+    -----------------------------------
+    width: 100%; -> largura
+    height: 600px; -> altura
+    -----------------------------------
+    margin -> fora da margem
+    margin-top -> afasta o elemento para beixo
+    margin-left -> afasta o elemento para direita
+    margin-right -> afasta o elemento para esqueda
+    margin-botton -> afasta o elemento para cima
+    -----------------------------------
+    padding -> dentro da maregm
+    padding-top -> afasta o elemento para beixo
+    padding-left -> afasta o elemento para direita
+    padding-right -> afasta o elemento para esqueda
+    padding-botton -> afasta o elemento para cima
+    -----------------------------------
+    border -> a feta a cor e espessura da borda
+    solid -> escolhe a cor
+    dashed -> deixa a bordar em picada e tambem escolhe a cor
+    -----------------------------------
+    -----box-lvl--inline-lvl-----------
+    display "block" -> transforma inline-lvl em box-ivl
+    display "flex" -> transforma box-ivl em inline-lvl
+    -----------------------------------
+    flex-wrap "wrap" -> permite todo elemento felx para que ele quebre
+    -----------------------------------
+    background-color: red; -> muda a cor de fundo
+    background:Linear gradient -> combinação de cores (cssgradient)
+    background-imagem:url(../imagem/nomeDaImagem.jpg) -> imagem de fundo
+    background-repeat:no-repeat -> para não repetir o background
+    background-size:cover -> estica a imagem até o fim da telas
+    -----------------------------------
+    text-align: center -> centraliza
+    text-align: left ->   alinha a esquerda
+    text-align: right ->  alinha a direita
+    text-align: justify -> distribui o texto uniforme na tela
+    -----------------------------------
+    box-sizing: border-box; -> faz com que o calculo do programa 
+    seja feiro para dentro do elemento quanto aplicamos pu paddings
+
+    display:inline-block; -> faz com que os elamentos fiquem em linha 
+    ( usado junto com li)
+    text-decoration:uppercase -> transforma o texto em maiusculo
+    text-decoration:none -> retira todos os efeitos de decoração
+    scroll behavier:smoth -> faz a rolagem da pagina ser mais suave
+    transform:scale(1.2)->aumenta proporcionamente um elemento
+    transition: 0.2s -> faz com que o efeito aconteça lentamente
+    z-index: 2; -> faz com que o elemento se torne 3D
+    position:fixed;-> faz com que o elemento tenha uma posição fixa
+    overflow-x: hidden; -> cria uma barra longe se o elemento for maior do que a div
+    top: 20px; coloca o elemento no top a 20px de distancia
+    left:20px; coloca o elemento no left a 20 px de distancia
+    body:has(#id:target) .class_modificada{
+        aplica o efeito quando o id for acionado
+    }
+
+    transition: margin-left 2s ; -> aplica uma transição lenta
+    overflow: hidden; -> esconde todos os elementos que ultrapassam a borda da tela
+    #bola2:checked ~ .primeiro{ -> a div primeiro é irmã do input bola2
+        margin-left: -25%;
+        /* se a bola2 for marcada o elemento primeiro vai receber o efeito*/
+     }
+    
+-------------------------------------------------------
+
+sub comandos do css (pseudo classe)
+
+.ze:hover -> aplica o efeito quando passr o mouse por cima
+.ze:active -> aplica o efeito quando clicar e segurar no elemento
+.ze:target -> aplica o efeito quando clicado e gerado um id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="css/style.css" media="print">
+para imprimir
+
+article::after{
+    content: 'digite aqui o texto que será adicionado';
+}
+
+media query = media type + media features 
+
+media type é o  tipo -> screen, print, all
+media feature -> é a caracteristica dentro do media type
+
+<link rel="stylesheet" href="css/retrato.css" media="screen and (orientation:portrait)">
+<link rel="stylesheet" href="css/paisagem.css" media="screen and (orientation:landscape)">
+
+background-size:contain : aperta o background dentro da div
+background-position:left botton -> ajusta a image de background na parte de baixo

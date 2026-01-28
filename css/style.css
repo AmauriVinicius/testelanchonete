@@ -1,0 +1,13 @@
+ /* padrão de computador*/
+@media (max-width: 4000px)  {
+    body{
+        background-color: blue;
+    }
+}
+
+ /*padrão de celular*/
+@media (max-width: 430px) {
+    body{
+        background-color: red ;
+    }
+}
