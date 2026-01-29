@@ -10,4 +10,16 @@
     body{
         background-color: red ;
     }
+    header img{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .direita{
+        text-align: right;
+    }
+    .s1 img{
+        border-radius: 50%;
+        outline: 3px solid rgb(203, 203, 219);
+        outline-offset: 2px ;
+    }
 }
