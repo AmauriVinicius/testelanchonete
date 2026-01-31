@@ -68,4 +68,112 @@
         width: 5%;
         outline: 3px solid white;
     }
+    .s3{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .s3 select{
+        margin: 10px 0;
+        width: 50%;
+        font-size: 20px;
+    }
+    .s3 h1{
+        font-size: 20px;
+        color: white;
+    }
+    .s3 button{
+        margin-top: 20px;
+        font-size: 26px;
+        background-color: red;
+        color: white;
+        border: none;
+    }
+    .s3 button:hover{
+        background-color: black;
+    }
+
+    .fixo{
+        height: 50px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        z-index: 2;
+        top: 850px;
+        width: 100%;
+        color: white;
+    }
+    .pedidosS2{
+        padding-top: 50px;
+    }
+    .historico{
+        background-color: white;
+        padding-top:10px;
+        padding-bottom: 10px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .historico img{
+        border-radius: 50%;
+    }
+    .historico h1{
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .historico button{
+        background-color: black;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .pedidosS2 h1{
+        color: rgb(216, 144, 10);
+    }
+    .meusdadoss2{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .meusdadoss2 .tel1{
+        width: 10%;
+    }
+    .meusdadoss2 .tel2{
+        width: 65%;
+        margin-left: 4%;
+    }
+    .meusdadoss2 .endereco{
+        width: 80%;
+    }
+    .meusdadoss2 .complemento{
+        width: 80%;
+    }
+    .meusdadoss2 .nome{
+        width: 80%;
+    }
+    .meusdadoss2 .cartao{
+        width: 80%;
+    }
+    .check{
+        text-align: left;
+        margin-left: 9%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .meusdadoss2 button{
+        background-color: black;
+        color:  white;
+        border: none;
+        width: 80%;
+        height: 40px;
+        font-size: 20px;
+    }
+    .meusdadoss2 button:hover{
+        background-color: rgb(1, 161, 52);
+        color: black;
+    }
+    .meusdadoss2 input{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+
 }
